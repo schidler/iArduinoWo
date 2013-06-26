@@ -7,8 +7,6 @@
   本项目是基于node.js框架rrestjs开发构成的
 
 ##rrestjs框架：http://www.rrestjs.com
- 
-  rrestjs手把手教程： http://snoopyxdy.blog.163.com/blog/static/60117440201211743031517/
 
 ##安装方法：
 
@@ -23,10 +21,6 @@
   4、安装mongodb2.0以上数据库
 
   5、修改config文件夹下的配置文件，进行数据库连接
-
-##架构及介绍：http://snoopyxdy.blog.163.com/blog/static/60117440201261844125973/
-
-##意见建议：http://snoopyxdy.blog.163.com/blog/static/60117440201261984421292/
 
 ##联系方式
 
