@@ -1,5 +1,5 @@
 var rrest = require('rrestjs');
-rrest.config.webtitle = 'WUJB轻博客';
+rrest.config.webtitle = 'iArduino窝';
 module.exports = function(req, res){
 	try{
 		require('./'+req.path[0])[req.path[1]](req, res);

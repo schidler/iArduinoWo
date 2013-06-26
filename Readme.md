@@ -1,8 +1,8 @@
-# wujb —— node.js and mongodb blog website
+# iArduinoWo —— node.js and mongodb blog website
 
-  wujb是利用node.js和mongodb搭建的轻博客站点，这里是此站点的源文件
+  iArduinoWo是利用node.js和mongodb搭建的轻博客站点，这里是此站点的源文件
 
-##项目演示网址：http://www.wujb.net
+##项目演示网址：http://wo.iArduino.cn
 
   本项目是基于node.js框架rrestjs开发构成的
 
