@@ -1,0 +1,15 @@
+{
+  "name": "iArduinoWo",
+  "version": "0.0.1",
+  "main": "app.js",
+  "private": true,
+  "customHost": ["iArduino.cn", "wo.iArduino.cn"],
+  "dependencies": {
+    "rrestjs": "1.3.2",
+    "jade": "0.20.0",
+    "less": "1.3.0",
+    "mongoose": "2.7.3",
+    "node-markdown": "0.1.0",
+    "ejs": "0.8.2"
+  }
+}
