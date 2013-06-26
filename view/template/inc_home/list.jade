@@ -5,7 +5,7 @@
        img(src="#{content.authorface}", width="80", height="80")
        -if(user._id !== content.authorid)
         .dtLink
-          a.pbg.faceMsg(href="/message/send/#{content.authorid}", title="发私信", target="wujb")
+          a.pbg.faceMsg(href="/message/send/#{content.authorid}", title="发私信", target="iArduino")
           - if(~user.friends.indexOf(content.authorid))
            a.pbg.faceFriend2(name="cancelfriend", href="/friends/cancel/#{content.authorid}", title="删除好友")
           -else
@@ -14,25 +14,25 @@
        .pbg.ddTop
          .pbg.ddTopR
        h2.clearfix
-         a(href="/content/info/#{content.id}", target="wujb") #{content.title}
-         a.fr.bluea(href="/content/list/#{content.authorid}",  target="wujb") #{content.authorname}
+         a(href="/content/info/#{content.id}", target="iArduino") #{content.title}
+         a.fr.bluea(href="/content/list/#{content.authorid}",  target="iArduino") #{content.authorname}
        -if(content.type ==='word')
          .ddContent.fl.wordContent !{content.content}
        -else
          .ddContent.fl !{content.content}
        -if(content.type ==='video')
          .ddImg.fl
-              a(href="/content/info/#{content.id}", target="wujb")
+              a(href="/content/info/#{content.id}", target="iArduino")
                img(src="/static/img/dflash.gif",title="播放flash视频")
        -else if(content.type ==='pic')
          .ddImg.fl
            - each img in content.imgs
-             a(href="/content/info/#{content.id}", target="wujb")
+             a(href="/content/info/#{content.id}", target="iArduino")
                img(src="#{img}", width="220")
        .ddBottom.clearfix
            span.ftgray #{content.createtime}
-             a.graya(href="/content/info/#{content.id}", target="wujb") 评论(#{content.commetnum})
-             a.graya(href="/content/info/#{content.id}", target="wujb") 喜欢(#{content.lovenum})
+             a.graya(href="/content/info/#{content.id}", target="iArduino") 评论(#{content.commetnum})
+             a.graya(href="/content/info/#{content.id}", target="iArduino") 喜欢(#{content.lovenum})
              - if(~user.love.indexOf(content.id))
               a.pbg.ddLove.pinka(name="dislove", href="/content/inotlove/#{content.id}", title="不喜欢") 不喜欢
              - else
