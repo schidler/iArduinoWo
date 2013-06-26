@@ -8,6 +8,8 @@
 
 ##rrestjs框架：http://www.rrestjs.com
 
+##在线PS网站:http://www.uupoop.com/
+
 ##安装方法：
 
   目前没有对windows环境下做任何测试和支持，请使用linux系统
