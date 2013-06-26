@@ -16,7 +16,7 @@
   
   2、npm install rrestjs
 
-  3、从github上打包wujb源码下载  
+  3、从github上打包iArduinoWo源码下载  
 
   4、安装mongodb2.0以上数据库
 
