@@ -30,6 +30,6 @@
 
 ##联系方式
 
-  email: snoopyxdy@163.com
+  email: schidler#iArduino.cn
 
-  QQ: 53822985
+  QQ: t.online#qq.com
