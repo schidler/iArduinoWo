@@ -8,7 +8,7 @@
     "rrestjs": "1.3.2",
     "jade": "0.20.0",
     "less": "1.3.0",
-    "mongoose": "2.7.3",
+    "mongoose": "5.7.6",
     "node-markdown": "0.1.0",
     "ejs": "0.8.2"
   }
